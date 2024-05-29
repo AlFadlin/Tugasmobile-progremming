@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
- import '/ui/poli_page.dart';
+import 'package:klinik_app/ui/Pasien.dart';
+ import '/ui/Pasien.dart';
 
 
 void main() => runApp(MyApp());
@@ -10,7 +11,7 @@ Widget build(BuildContext context) {
   return MaterialApp(
     title: 'Klinik APP',
     debugShowCheckedModeBanner: false,
-    home: PoliPage(),
+    home: PoliPasien(),
   );
 }
 }

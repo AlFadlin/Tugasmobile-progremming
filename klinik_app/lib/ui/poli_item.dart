@@ -12,7 +12,7 @@ import 'package:flutter/material.dart';
     return GestureDetector( 
       child: Card( 
         child: ListTile(
-          title: Text("${poli.namaPoli}"),
+          title: Text("${poli.dataPasien}"),
         ),
       ),
       onTap: () {

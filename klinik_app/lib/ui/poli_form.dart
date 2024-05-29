@@ -11,14 +11,14 @@ final _formKey = GlobalKey<FormState>();
  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Tambah Poli")),
+      appBar: AppBar(title: const Text("Tambah data")),
       body: SingleChildScrollView(
         child: Form(
           key: _formKey,
           child: Column(
             children: [
               TextField(
-                decoration: const InputDecoration(labelText: "Nama Poli")),
+                decoration: const InputDecoration(labelText: "data pasien")),
                 SizedBox(height: 20),
                 ElevatedButton(onPressed: () {}, child: const Text("Simpan"))
             ],

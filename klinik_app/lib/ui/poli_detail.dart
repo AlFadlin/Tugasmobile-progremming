@@ -19,7 +19,7 @@ class _PoliDetailState extends State<PoliDetail> {
         children: [ 
          SizedBox(height: 20), 
           Text(
-            "Nama Pegawai : ${widget.poli.namaPegawai}",
+            "Nama Poli : ${widget.poli.dataPasien}",
               style: TextStyle(fontSize: 20),
           ),
           SizedBox(height: 20), 

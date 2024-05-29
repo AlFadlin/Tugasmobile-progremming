@@ -1,6 +1,6 @@
 class Poli { 
    String? id; 
-    String namaPegawai; 
+    String namaPoli; 
 
-     Poli({this.id, required this.namaPegawai}); 
+     Poli({this.id, required this.namaPoli}); 
 }

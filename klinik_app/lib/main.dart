@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
- import '/ui/Pegawai.dart';
+ import '/ui/poli_page.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -9,7 +10,7 @@ Widget build(BuildContext context) {
   return MaterialApp(
     title: 'Klinik APP',
     debugShowCheckedModeBanner: false,
-    home: Pegawai(),
+    home: PoliPage(),
   );
 }
 }
